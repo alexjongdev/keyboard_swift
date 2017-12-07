@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NEC-cH-crf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Help Page Controller-->
+        <scene sceneID="fpr-V2-QOA">
+            <objects>
+                <viewController storyboardIdentifier="HelpPageController" automaticallyAdjustsScrollViewInsets="NO" id="NEC-cH-crf" customClass="HelpPageController" customModule="ROKOmoji" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xuK-9f-D6i"/>
+                        <viewControllerLayoutGuide type="bottom" id="bSk-J3-32L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Da-Tm-oRN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="bg6" translatesAutoresizingMaskIntoConstraints="NO" id="23Q-MZ-kul">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="niw-n9-ZEy">
+                                <rect key="frame" x="122.5" y="615" width="130" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="vs5-Xo-DiD"/>
+                                </constraints>
+                            </pageControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IK7-bg-Q2h" userLabel="hidding View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="i9b-eH-z9C">
+                                        <rect key="frame" x="62.5" y="193.5" width="250" height="220"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzN-Rw-AMc">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="39"/>
+                                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
+                                                <state key="normal" title="How to install">
+                                                    <color key="titleColor" red="0.1210958585" green="0.51347577570000003" blue="0.77202385659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickHowToInstall:" destination="NEC-cH-crf" eventType="touchUpInside" id="c5s-ub-WDw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34y-7P-Zhu">
+                                                <rect key="frame" x="0.0" y="60.5" width="250" height="39"/>
+                                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
+                                                <state key="normal" title="Contact Us">
+                                                    <color key="titleColor" red="0.1210958585" green="0.51347577570000003" blue="0.77202385659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickContactUs:" destination="NEC-cH-crf" eventType="touchUpInside" id="Abp-mX-NMd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfZ-9i-tqN">
+                                                <rect key="frame" x="0.0" y="120.5" width="250" height="39"/>
+                                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
+                                                <state key="normal" title="Privacy Policy">
+                                                    <color key="titleColor" red="0.1210958585" green="0.51347577570000003" blue="0.77202385659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickPrivacyPolicy:" destination="NEC-cH-crf" eventType="touchUpInside" id="oNt-SZ-qL8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zg-X4-UyJ">
+                                                <rect key="frame" x="0.0" y="181" width="250" height="39"/>
+                                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
+                                                <state key="normal" title="About ROKO Stickers">
+                                                    <color key="titleColor" red="0.1210958585" green="0.51347577570000003" blue="0.77202385659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickAboutStickers:" destination="NEC-cH-crf" eventType="touchUpInside" id="AbH-1Z-3S2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="f9O-wK-0u6"/>
+                                            <constraint firstAttribute="height" constant="220" id="sL1-BD-gc4"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="i9b-eH-z9C" firstAttribute="centerY" secondItem="IK7-bg-Q2h" secondAttribute="centerY" constant="-30" id="eXD-vS-599"/>
+                                    <constraint firstItem="i9b-eH-z9C" firstAttribute="centerX" secondItem="IK7-bg-Q2h" secondAttribute="centerX" id="fga-QQ-uPc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IK7-bg-Q2h" firstAttribute="height" secondItem="7Da-Tm-oRN" secondAttribute="height" id="1Lm-dU-pxg"/>
+                            <constraint firstAttribute="trailing" secondItem="23Q-MZ-kul" secondAttribute="trailing" id="1wt-6H-g6F"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="23Q-MZ-kul" secondAttribute="bottom" id="8ux-i2-b8a"/>
+                            <constraint firstItem="23Q-MZ-kul" firstAttribute="top" secondItem="7Da-Tm-oRN" secondAttribute="topMargin" id="Kew-Ui-W31"/>
+                            <constraint firstItem="niw-n9-ZEy" firstAttribute="centerX" secondItem="7Da-Tm-oRN" secondAttribute="centerX" id="Xsc-5e-mSu"/>
+                            <constraint firstItem="IK7-bg-Q2h" firstAttribute="centerX" secondItem="7Da-Tm-oRN" secondAttribute="centerX" id="Ymg-lh-ZhF"/>
+                            <constraint firstItem="IK7-bg-Q2h" firstAttribute="width" secondItem="7Da-Tm-oRN" secondAttribute="width" id="bZW-WG-fru"/>
+                            <constraint firstItem="23Q-MZ-kul" firstAttribute="leading" secondItem="7Da-Tm-oRN" secondAttribute="leading" id="dMc-nf-NdE"/>
+                            <constraint firstItem="bSk-J3-32L" firstAttribute="top" secondItem="niw-n9-ZEy" secondAttribute="bottom" constant="15" id="kP8-yP-9PS"/>
+                            <constraint firstItem="IK7-bg-Q2h" firstAttribute="centerY" secondItem="7Da-Tm-oRN" secondAttribute="centerY" id="zrO-7B-mOQ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="ziV-O7-pjB"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="hiddingView" destination="IK7-bg-Q2h" id="eLl-of-HCW"/>
+                        <outlet property="pageControl" destination="niw-n9-ZEy" id="M7S-8c-GvM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKM-Pq-dpi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="806"/>
+        </scene>
+        <!--Page Content View Controller-->
+        <scene sceneID="ij9-D8-GlD">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" id="h4p-eC-CGy" customClass="PageContentViewController" customModule="ROKOmoji" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N9T-ec-E44"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Qg-iA-NOA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oet-6a-Dfi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text_1" translatesAutoresizingMaskIntoConstraints="NO" id="YHk-hq-r2w" userLabel="backgroundImageView">
+                                <rect key="frame" x="9.5" y="0.0" width="356" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="YHk-hq-r2w" firstAttribute="top" secondItem="oet-6a-Dfi" secondAttribute="topMargin" id="0fC-xL-wTm"/>
+                            <constraint firstItem="YHk-hq-r2w" firstAttribute="width" secondItem="oet-6a-Dfi" secondAttribute="width" multiplier="0.95" id="UOf-mS-tvE"/>
+                            <constraint firstItem="YHk-hq-r2w" firstAttribute="centerX" secondItem="oet-6a-Dfi" secondAttribute="centerX" id="YaA-9g-tmU"/>
+                            <constraint firstAttribute="bottom" secondItem="YHk-hq-r2w" secondAttribute="bottom" id="Zbe-RM-Dzd"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="YHk-hq-r2w" id="H0r-N5-v6a"/>
+                        <outlet property="topConstratint" destination="0fC-xL-wTm" id="ljT-BO-MWm"/>
+                    </connections>
+                </viewController>
+                <navigationItem id="Vua-9b-ANy"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjo-6N-e3r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2767" y="806"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg6" width="375" height="667"/>
+        <image name="text_1" width="375" height="667"/>
+    </resources>
+</document>

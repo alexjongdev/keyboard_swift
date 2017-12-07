@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2705314B1DC8A76C002B93FD /* StickerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705314A1DC8A76C002B93FD /* StickerCache.swift */; };
+		2705314C1DC8A76C002B93FD /* StickerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705314A1DC8A76C002B93FD /* StickerCache.swift */; };
+		2705314E1DC8AE1E002B93FD /* StickerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705314D1DC8AE1E002B93FD /* StickerLoader.swift */; };
+		2705314F1DC8AE1E002B93FD /* StickerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705314D1DC8AE1E002B93FD /* StickerLoader.swift */; };
+		270531511DC8B484002B93FD /* FileManager+Stickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270531501DC8B484002B93FD /* FileManager+Stickers.swift */; };
+		270531521DC8B484002B93FD /* FileManager+Stickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270531501DC8B484002B93FD /* FileManager+Stickers.swift */; };
+		270531561DC8D829002B93FD /* StickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270531551DC8D829002B93FD /* StickerDataSource.swift */; };
+		270531571DC8D829002B93FD /* StickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270531551DC8D829002B93FD /* StickerDataSource.swift */; };
+		73D06AB3BAA2EF192DF16F9E /* Pods_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5272864A14194BF4BE961A /* Pods_Keyboard.framework */; };
+		8F2258351DB79396008854AC /* StickerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258301DB79396008854AC /* StickerIcon.swift */; };
+		8F2258361DB79396008854AC /* StickerIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2258311DB79396008854AC /* StickerIcon.xib */; };
+		8F2258371DB79396008854AC /* StickerPackIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258321DB79396008854AC /* StickerPackIcon.swift */; };
+		8F2258381DB79396008854AC /* StickerPackIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2258331DB79396008854AC /* StickerPackIcon.xib */; };
+		8F2258391DB79396008854AC /* StickerPacksPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258341DB79396008854AC /* StickerPacksPanel.swift */; };
+		8F22583B1DB7940C008854AC /* StickersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22583A1DB7940C008854AC /* StickersPanel.swift */; };
+		8F2258421DB7B063008854AC /* StickerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258301DB79396008854AC /* StickerIcon.swift */; };
+		8F2258431DB7B068008854AC /* StickerIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2258311DB79396008854AC /* StickerIcon.xib */; };
+		8F2258441DB7B06B008854AC /* StickerPackIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258321DB79396008854AC /* StickerPackIcon.swift */; };
+		8F2258451DB7B06E008854AC /* StickerPackIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2258331DB79396008854AC /* StickerPackIcon.xib */; };
+		8F2258461DB7B070008854AC /* StickersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22583A1DB7940C008854AC /* StickersPanel.swift */; };
+		8F2258471DB7B073008854AC /* StickerPacksPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2258341DB79396008854AC /* StickerPacksPanel.swift */; };
+		8F35DC5E1DB4F1A400412758 /* GothaProReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F35DC5D1DB4F1A400412758 /* GothaProReg.otf */; };
+		8F42D73B1DD5C3400066AC30 /* HelpPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F42D7391DD5C3400066AC30 /* HelpPageController.swift */; };
+		8F42D73C1DD5C3400066AC30 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F42D73A1DD5C3400066AC30 /* PageContentViewController.swift */; };
+		8F4F8EF21DC376890007BCBF /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE20C331DC08FF200CBDDAF /* UIImage+Scale.swift */; };
+		8F4F92AC1DC769810007BCBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F92AB1DC769810007BCBF /* Constants.swift */; };
+		8F4F92AD1DC76B050007BCBF /* CopyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EBDA71D085C940022E6A4 /* CopyboardManager.swift */; };
+		8F4F92AE1DC76B7A0007BCBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F92AB1DC769810007BCBF /* Constants.swift */; };
+		8F6EBD9D1D0805B50022E6A4 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6EBD9C1D0805B50022E6A4 /* KeyboardViewController.xib */; };
+		8F6EBDA51D08480B0022E6A4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6EBDA41D08480B0022E6A4 /* Media.xcassets */; };
+		8F6EBDA81D085C950022E6A4 /* CopyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EBDA71D085C940022E6A4 /* CopyboardManager.swift */; };
+		8F89B7371DACF41E00025441 /* HelpControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89B7361DACF41E00025441 /* HelpControllerFactory.swift */; };
+		8F89B7401DAD1D3200025441 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89B73F1DAD1D3200025441 /* Utilites.swift */; };
+		8F89B7491DAE564A00025441 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F89B7471DAE564A00025441 /* SF-UI-Text-Bold.otf */; };
+		8F89B74A1DAE564A00025441 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F89B7481DAE564A00025441 /* SF-UI-Text-Regular.otf */; };
+		8F89B7501DAE7DC600025441 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F89B7471DAE564A00025441 /* SF-UI-Text-Bold.otf */; };
+		8F89B7511DAE7DC600025441 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F89B7481DAE564A00025441 /* SF-UI-Text-Regular.otf */; };
+		8F9DD6601D05A9AE0079CB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DD65F1D05A9AE0079CB1D /* AppDelegate.swift */; };
+		8F9DD6651D05A9AE0079CB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DD6631D05A9AE0079CB1D /* Main.storyboard */; };
+		8F9DD6671D05A9AE0079CB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DD6661D05A9AE0079CB1D /* Assets.xcassets */; };
+		8F9DD66A1D05A9AE0079CB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DD6681D05A9AE0079CB1D /* LaunchScreen.storyboard */; };
+		8F9DD6781D05AB250079CB1D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DD6771D05AB250079CB1D /* KeyboardViewController.swift */; };
+		8F9DD67C1D05AB250079CB1D /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8F9DD6751D05AB250079CB1D /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8FDBF8D11DBA5E2800DAFD9D /* StickersDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBF8D01DBA5E2800DAFD9D /* StickersDataProvider.swift */; };
+		8FE207691DBF57F900CBDDAF /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89B73F1DAD1D3200025441 /* Utilites.swift */; };
+		8FE2076A1DBF580100CBDDAF /* StickersDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBF8D01DBA5E2800DAFD9D /* StickersDataProvider.swift */; };
+		8FE20C371DC090AB00CBDDAF /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE20C331DC08FF200CBDDAF /* UIImage+Scale.swift */; };
+		8FF6D40E1DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E31DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers */; };
+		8FF6D40F1DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E41DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers */; };
+		8FF6D4101DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E51DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers */; };
+		8FF6D4111DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E61DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers */; };
+		8FF6D4121DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E71DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers */; };
+		8FF6D4131DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E81DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers */; };
+		8FF6D4141DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E91DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers */; };
+		8FF6D4151DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EA1DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers */; };
+		8FF6D4161DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EB1DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers */; };
+		8FF6D4171DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EC1DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers */; };
+		8FF6D4181DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3ED1DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers */; };
+		8FF6D4191DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EE1DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers */; };
+		8FF6D41A1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EF1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers */; };
+		8FF6D41B1DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F01DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers */; };
+		8FF6D41C1DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F11DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers */; };
+		8FF6D41D1DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F21DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers */; };
+		8FF6D41E1DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F31DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers */; };
+		8FF6D41F1DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F41DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers */; };
+		8FF6D4201DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F51DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers */; };
+		8FF6D4211DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F61DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers */; };
+		8FF6D4221DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F71DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers */; };
+		8FF6D4231DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F81DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers */; };
+		8FF6D4241DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F91DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers */; };
+		8FF6D4251DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FA1DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers */; };
+		8FF6D4261DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FB1DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers */; };
+		8FF6D4271DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FC1DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers */; };
+		8FF6D4281DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FD1DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers */; };
+		8FF6D4291DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FE1DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers */; };
+		8FF6D42A1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FF1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers */; };
+		8FF6D42B1DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4001DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers */; };
+		8FF6D42C1DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4011DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers */; };
+		8FF6D42D1DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4021DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers */; };
+		8FF6D42E1DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4031DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers */; };
+		8FF6D42F1DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4041DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers */; };
+		8FF6D4301DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4051DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers */; };
+		8FF6D4311DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4061DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers */; };
+		8FF6D4321DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4071DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers */; };
+		8FF6D4331DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4081DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers */; };
+		8FF6D4341DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4091DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers */; };
+		8FF6D4351DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40A1DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers */; };
+		8FF6D4361DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40B1DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers */; };
+		8FF6D4371DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40C1DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers */; };
+		8FF6D4381DCB7E09000270A8 /* StickersDataFile.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40D1DCB7E09000270A8 /* StickersDataFile.Stickers */; };
+		8FF6D4391DCB7E14000270A8 /* Pack_1188767.icon_1149302.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E31DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers */; };
+		8FF6D43A1DCB7E14000270A8 /* Pack_1188767.icon_1149311.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E41DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers */; };
+		8FF6D43B1DCB7E14000270A8 /* Pack_1188767.icon_1149392.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E51DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers */; };
+		8FF6D43C1DCB7E14000270A8 /* Pack_1188767.icon_166176367.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E61DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers */; };
+		8FF6D43D1DCB7E14000270A8 /* Pack_1188767.icon_166176370.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E71DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers */; };
+		8FF6D43E1DCB7E14000270A8 /* Pack_1188767.icon_166176373.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E81DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers */; };
+		8FF6D43F1DCB7E14000270A8 /* Pack_1188767.icon_166176376.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3E91DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers */; };
+		8FF6D4401DCB7E14000270A8 /* Pack_1188767.icon_166176379.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EA1DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers */; };
+		8FF6D4411DCB7E14000270A8 /* Pack_1188767.icon_166176382.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EB1DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers */; };
+		8FF6D4421DCB7E14000270A8 /* Pack_1188767.icon_166176385.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EC1DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers */; };
+		8FF6D4431DCB7E14000270A8 /* Pack_1188767.icon_166176388.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3ED1DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers */; };
+		8FF6D4441DCB7E14000270A8 /* Pack_1188767.icon_166176391.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EE1DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers */; };
+		8FF6D4451DCB7E14000270A8 /* Pack_1188767.icon_166927076.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3EF1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers */; };
+		8FF6D4461DCB7E14000270A8 /* Pack_1188767.icon_166927085.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F01DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers */; };
+		8FF6D4471DCB7E14000270A8 /* Pack_1188767.icon_166927088.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F11DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers */; };
+		8FF6D4481DCB7E14000270A8 /* Pack_1188767.icon_166927092.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F21DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers */; };
+		8FF6D4491DCB7E14000270A8 /* Pack_1188767.icon_698287.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F31DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers */; };
+		8FF6D44A1DCB7E14000270A8 /* Pack_1188767.icon_698339.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F41DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers */; };
+		8FF6D44B1DCB7E14000270A8 /* Pack_1188767.icon_698348.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F51DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers */; };
+		8FF6D44C1DCB7E14000270A8 /* Pack_1188767.icon_698366.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F61DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers */; };
+		8FF6D44D1DCB7E14000270A8 /* Pack_1188767.image_1149302.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F71DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers */; };
+		8FF6D44E1DCB7E14000270A8 /* Pack_1188767.image_1149311.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F81DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers */; };
+		8FF6D44F1DCB7E14000270A8 /* Pack_1188767.image_1149392.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3F91DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers */; };
+		8FF6D4501DCB7E14000270A8 /* Pack_1188767.image_166176367.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FA1DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers */; };
+		8FF6D4511DCB7E14000270A8 /* Pack_1188767.image_166176370.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FB1DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers */; };
+		8FF6D4521DCB7E14000270A8 /* Pack_1188767.image_166176373.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FC1DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers */; };
+		8FF6D4531DCB7E14000270A8 /* Pack_1188767.image_166176376.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FD1DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers */; };
+		8FF6D4541DCB7E14000270A8 /* Pack_1188767.image_166176379.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FE1DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers */; };
+		8FF6D4551DCB7E14000270A8 /* Pack_1188767.image_166176382.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D3FF1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers */; };
+		8FF6D4561DCB7E14000270A8 /* Pack_1188767.image_166176385.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4001DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers */; };
+		8FF6D4571DCB7E14000270A8 /* Pack_1188767.image_166176388.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4011DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers */; };
+		8FF6D4581DCB7E14000270A8 /* Pack_1188767.image_166176391.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4021DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers */; };
+		8FF6D4591DCB7E14000270A8 /* Pack_1188767.image_166927076.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4031DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers */; };
+		8FF6D45A1DCB7E14000270A8 /* Pack_1188767.image_166927085.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4041DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers */; };
+		8FF6D45B1DCB7E14000270A8 /* Pack_1188767.image_166927088.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4051DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers */; };
+		8FF6D45C1DCB7E14000270A8 /* Pack_1188767.image_166927092.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4061DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers */; };
+		8FF6D45D1DCB7E14000270A8 /* Pack_1188767.image_698287.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4071DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers */; };
+		8FF6D45E1DCB7E14000270A8 /* Pack_1188767.image_698339.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4081DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers */; };
+		8FF6D45F1DCB7E14000270A8 /* Pack_1188767.image_698348.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D4091DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers */; };
+		8FF6D4601DCB7E14000270A8 /* Pack_1188767.image_698366.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40A1DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers */; };
+		8FF6D4611DCB7E14000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40B1DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers */; };
+		8FF6D4621DCB7E14000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40C1DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers */; };
+		8FF6D4631DCB7E14000270A8 /* StickersDataFile.Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6D40D1DCB7E09000270A8 /* StickersDataFile.Stickers */; };
+		9F07C5A3E43B0ABE9FE2DCA5 /* Pods_ROKOmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF33D956FA1336DDED57893 /* Pods_ROKOmoji.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F9DD67A1D05AB250079CB1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F9DD6541D05A9AE0079CB1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9DD6741D05AB250079CB1D;
+			remoteInfo = Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F9DD6801D05AB250079CB1D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8F9DD67C1D05AB250079CB1D /* Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		138960C3A911C0D55400386B /* Pods-Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		2705314A1DC8A76C002B93FD /* StickerCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCache.swift; sourceTree = "<group>"; };
+		2705314D1DC8AE1E002B93FD /* StickerLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerLoader.swift; sourceTree = "<group>"; };
+		270531501DC8B484002B93FD /* FileManager+Stickers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Stickers.swift"; sourceTree = "<group>"; };
+		270531551DC8D829002B93FD /* StickerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerDataSource.swift; sourceTree = "<group>"; };
+		290AB65F7AA6F58244C0D36F /* Pods-ROKOmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROKOmoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROKOmoji/Pods-ROKOmoji.debug.xcconfig"; sourceTree = "<group>"; };
+		3BAA6197D7F84644FC06903B /* Pods-ROKOmoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROKOmoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROKOmoji/Pods-ROKOmoji.release.xcconfig"; sourceTree = "<group>"; };
+		6CF33D956FA1336DDED57893 /* Pods_ROKOmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROKOmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5272864A14194BF4BE961A /* Pods_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2258301DB79396008854AC /* StickerIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerIcon.swift; sourceTree = "<group>"; };
+		8F2258311DB79396008854AC /* StickerIcon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerIcon.xib; sourceTree = "<group>"; };
+		8F2258321DB79396008854AC /* StickerPackIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackIcon.swift; sourceTree = "<group>"; };
+		8F2258331DB79396008854AC /* StickerPackIcon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerPackIcon.xib; sourceTree = "<group>"; };
+		8F2258341DB79396008854AC /* StickerPacksPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPacksPanel.swift; sourceTree = "<group>"; };
+		8F22583A1DB7940C008854AC /* StickersPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersPanel.swift; sourceTree = "<group>"; };
+		8F35DC5D1DB4F1A400412758 /* GothaProReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProReg.otf; sourceTree = "<group>"; };
+		8F3E3C251E2F64A9006B007F /* ROKOmoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ROKOmoji.entitlements; path = ../ROKOmoji.entitlements; sourceTree = "<group>"; };
+		8F42D7391DD5C3400066AC30 /* HelpPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpPageController.swift; sourceTree = "<group>"; };
+		8F42D73A1DD5C3400066AC30 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		8F4F92AB1DC769810007BCBF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F6EBD9C1D0805B50022E6A4 /* KeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		8F6EBDA11D081F5F0022E6A4 /* Keyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F6EBDA41D08480B0022E6A4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8F6EBDA71D085C940022E6A4 /* CopyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyboardManager.swift; sourceTree = "<group>"; };
+		8F6EBDBB1D0977A80022E6A4 /* Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Keyboard.entitlements; sourceTree = "<group>"; };
+		8F89B7361DACF41E00025441 /* HelpControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpControllerFactory.swift; sourceTree = "<group>"; };
+		8F89B73F1DAD1D3200025441 /* Utilites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		8F89B7471DAE564A00025441 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		8F89B7481DAE564A00025441 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		8F9DD65C1D05A9AE0079CB1D /* ROKOmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROKOmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9DD65F1D05A9AE0079CB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F9DD6641D05A9AE0079CB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9DD6661D05A9AE0079CB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9DD6691D05A9AE0079CB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9DD66B1D05A9AE0079CB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9DD6751D05AB250079CB1D /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9DD6771D05AB250079CB1D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8F9DD6791D05AB250079CB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9DD6811D05D24C0079CB1D /* ROKOKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROKOKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FDBF8D01DBA5E2800DAFD9D /* StickersDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersDataProvider.swift; sourceTree = "<group>"; };
+		8FE20C331DC08FF200CBDDAF /* UIImage+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Scale.swift"; sourceTree = "<group>"; };
+		8FF6D3E31DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_1149302.Stickers; sourceTree = "<group>"; };
+		8FF6D3E41DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_1149311.Stickers; sourceTree = "<group>"; };
+		8FF6D3E51DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_1149392.Stickers; sourceTree = "<group>"; };
+		8FF6D3E61DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176367.Stickers; sourceTree = "<group>"; };
+		8FF6D3E71DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176370.Stickers; sourceTree = "<group>"; };
+		8FF6D3E81DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176373.Stickers; sourceTree = "<group>"; };
+		8FF6D3E91DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176376.Stickers; sourceTree = "<group>"; };
+		8FF6D3EA1DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176379.Stickers; sourceTree = "<group>"; };
+		8FF6D3EB1DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176382.Stickers; sourceTree = "<group>"; };
+		8FF6D3EC1DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176385.Stickers; sourceTree = "<group>"; };
+		8FF6D3ED1DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176388.Stickers; sourceTree = "<group>"; };
+		8FF6D3EE1DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166176391.Stickers; sourceTree = "<group>"; };
+		8FF6D3EF1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166927076.Stickers; sourceTree = "<group>"; };
+		8FF6D3F01DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166927085.Stickers; sourceTree = "<group>"; };
+		8FF6D3F11DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166927088.Stickers; sourceTree = "<group>"; };
+		8FF6D3F21DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_166927092.Stickers; sourceTree = "<group>"; };
+		8FF6D3F31DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_698287.Stickers; sourceTree = "<group>"; };
+		8FF6D3F41DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_698339.Stickers; sourceTree = "<group>"; };
+		8FF6D3F51DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_698348.Stickers; sourceTree = "<group>"; };
+		8FF6D3F61DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.icon_698366.Stickers; sourceTree = "<group>"; };
+		8FF6D3F71DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_1149302.Stickers; sourceTree = "<group>"; };
+		8FF6D3F81DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_1149311.Stickers; sourceTree = "<group>"; };
+		8FF6D3F91DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_1149392.Stickers; sourceTree = "<group>"; };
+		8FF6D3FA1DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176367.Stickers; sourceTree = "<group>"; };
+		8FF6D3FB1DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176370.Stickers; sourceTree = "<group>"; };
+		8FF6D3FC1DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176373.Stickers; sourceTree = "<group>"; };
+		8FF6D3FD1DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176376.Stickers; sourceTree = "<group>"; };
+		8FF6D3FE1DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176379.Stickers; sourceTree = "<group>"; };
+		8FF6D3FF1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176382.Stickers; sourceTree = "<group>"; };
+		8FF6D4001DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176385.Stickers; sourceTree = "<group>"; };
+		8FF6D4011DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176388.Stickers; sourceTree = "<group>"; };
+		8FF6D4021DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166176391.Stickers; sourceTree = "<group>"; };
+		8FF6D4031DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166927076.Stickers; sourceTree = "<group>"; };
+		8FF6D4041DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166927085.Stickers; sourceTree = "<group>"; };
+		8FF6D4051DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166927088.Stickers; sourceTree = "<group>"; };
+		8FF6D4061DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_166927092.Stickers; sourceTree = "<group>"; };
+		8FF6D4071DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_698287.Stickers; sourceTree = "<group>"; };
+		8FF6D4081DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_698339.Stickers; sourceTree = "<group>"; };
+		8FF6D4091DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_698348.Stickers; sourceTree = "<group>"; };
+		8FF6D40A1DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.image_698366.Stickers; sourceTree = "<group>"; };
+		8FF6D40B1DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.packIcon_3941859901249773958.Stickers; sourceTree = "<group>"; };
+		8FF6D40C1DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pack_1188767.selectedPackIcon_2055947432137303685.Stickers; sourceTree = "<group>"; };
+		8FF6D40D1DCB7E09000270A8 /* StickersDataFile.Stickers */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = StickersDataFile.Stickers; sourceTree = "<group>"; };
+		F969847956C514F17B833E4E /* Pods-Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9DD6591D05A9AE0079CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F07C5A3E43B0ABE9FE2DCA5 /* Pods_ROKOmoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9DD6721D05AB250079CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D06AB3BAA2EF192DF16F9E /* Pods_Keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F22582F1DB79396008854AC /* StickersCollection */ = {
+			isa = PBXGroup;
+			children = (
+				8F2258301DB79396008854AC /* StickerIcon.swift */,
+				8F2258321DB79396008854AC /* StickerPackIcon.swift */,
+				8F2258311DB79396008854AC /* StickerIcon.xib */,
+				8FE20C331DC08FF200CBDDAF /* UIImage+Scale.swift */,
+				8FDBF8D01DBA5E2800DAFD9D /* StickersDataProvider.swift */,
+				8F2258331DB79396008854AC /* StickerPackIcon.xib */,
+				8F22583A1DB7940C008854AC /* StickersPanel.swift */,
+				8F2258341DB79396008854AC /* StickerPacksPanel.swift */,
+				8F4F92AB1DC769810007BCBF /* Constants.swift */,
+				270531551DC8D829002B93FD /* StickerDataSource.swift */,
+			);
+			name = StickersCollection;
+			path = ROKOKeyboard/StickersCollection;
+			sourceTree = "<group>";
+		};
+		8F6EBDA61D085C940022E6A4 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				8F6EBDA71D085C940022E6A4 /* CopyboardManager.swift */,
+				2705314A1DC8A76C002B93FD /* StickerCache.swift */,
+				2705314D1DC8AE1E002B93FD /* StickerLoader.swift */,
+				270531501DC8B484002B93FD /* FileManager+Stickers.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		8F89B7461DAE564A00025441 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8F35DC5D1DB4F1A400412758 /* GothaProReg.otf */,
+				8F89B7471DAE564A00025441 /* SF-UI-Text-Bold.otf */,
+				8F89B7481DAE564A00025441 /* SF-UI-Text-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		8F9DD6531D05A9AE0079CB1D = {
+			isa = PBXGroup;
+			children = (
+				8FF6D3E21DCB7E09000270A8 /* WarmCache */,
+				8F22582F1DB79396008854AC /* StickersCollection */,
+				8F9DD65E1D05A9AE0079CB1D /* ROKOKeyboard */,
+				8F9DD6761D05AB250079CB1D /* Keyboard */,
+				8F9DD65D1D05A9AE0079CB1D /* Products */,
+				B80648901601E4596E62A47F /* Pods */,
+				8F89B7461DAE564A00025441 /* Fonts */,
+				ABA571F1FEF80141FC0D146E /* Frameworks */,
+				8F9DD6811D05D24C0079CB1D /* ROKOKeyboard-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9DD65D1D05A9AE0079CB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9DD65C1D05A9AE0079CB1D /* ROKOmoji.app */,
+				8F9DD6751D05AB250079CB1D /* Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9DD65E1D05A9AE0079CB1D /* ROKOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8F3E3C251E2F64A9006B007F /* ROKOmoji.entitlements */,
+				8F9DD65F1D05A9AE0079CB1D /* AppDelegate.swift */,
+				8F9DD6631D05A9AE0079CB1D /* Main.storyboard */,
+				8F89B7361DACF41E00025441 /* HelpControllerFactory.swift */,
+				8F89B73F1DAD1D3200025441 /* Utilites.swift */,
+				8F42D7391DD5C3400066AC30 /* HelpPageController.swift */,
+				8F42D73A1DD5C3400066AC30 /* PageContentViewController.swift */,
+				8F9DD6661D05A9AE0079CB1D /* Assets.xcassets */,
+				8F9DD6681D05A9AE0079CB1D /* LaunchScreen.storyboard */,
+				8F9DD66B1D05A9AE0079CB1D /* Info.plist */,
+			);
+			path = ROKOKeyboard;
+			sourceTree = "<group>";
+		};
+		8F9DD6761D05AB250079CB1D /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8F6EBDBB1D0977A80022E6A4 /* Keyboard.entitlements */,
+				8F9DD6771D05AB250079CB1D /* KeyboardViewController.swift */,
+				8F6EBD9C1D0805B50022E6A4 /* KeyboardViewController.xib */,
+				8F6EBDA61D085C940022E6A4 /* Utilites */,
+				8F9DD6791D05AB250079CB1D /* Info.plist */,
+				8F6EBDA11D081F5F0022E6A4 /* Keyboard-Bridging-Header.h */,
+				8F6EBDA41D08480B0022E6A4 /* Media.xcassets */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		8FF6D3E21DCB7E09000270A8 /* WarmCache */ = {
+			isa = PBXGroup;
+			children = (
+				8FF6D3E31DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers */,
+				8FF6D3E41DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers */,
+				8FF6D3E51DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers */,
+				8FF6D3E61DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers */,
+				8FF6D3E71DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers */,
+				8FF6D3E81DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers */,
+				8FF6D3E91DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers */,
+				8FF6D3EA1DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers */,
+				8FF6D3EB1DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers */,
+				8FF6D3EC1DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers */,
+				8FF6D3ED1DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers */,
+				8FF6D3EE1DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers */,
+				8FF6D3EF1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers */,
+				8FF6D3F01DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers */,
+				8FF6D3F11DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers */,
+				8FF6D3F21DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers */,
+				8FF6D3F31DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers */,
+				8FF6D3F41DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers */,
+				8FF6D3F51DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers */,
+				8FF6D3F61DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers */,
+				8FF6D3F71DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers */,
+				8FF6D3F81DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers */,
+				8FF6D3F91DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers */,
+				8FF6D3FA1DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers */,
+				8FF6D3FB1DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers */,
+				8FF6D3FC1DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers */,
+				8FF6D3FD1DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers */,
+				8FF6D3FE1DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers */,
+				8FF6D3FF1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers */,
+				8FF6D4001DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers */,
+				8FF6D4011DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers */,
+				8FF6D4021DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers */,
+				8FF6D4031DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers */,
+				8FF6D4041DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers */,
+				8FF6D4051DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers */,
+				8FF6D4061DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers */,
+				8FF6D4071DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers */,
+				8FF6D4081DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers */,
+				8FF6D4091DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers */,
+				8FF6D40A1DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers */,
+				8FF6D40B1DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers */,
+				8FF6D40C1DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers */,
+				8FF6D40D1DCB7E09000270A8 /* StickersDataFile.Stickers */,
+			);
+			path = WarmCache;
+			sourceTree = "<group>";
+		};
+		ABA571F1FEF80141FC0D146E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5272864A14194BF4BE961A /* Pods_Keyboard.framework */,
+				6CF33D956FA1336DDED57893 /* Pods_ROKOmoji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B80648901601E4596E62A47F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F969847956C514F17B833E4E /* Pods-Keyboard.debug.xcconfig */,
+				138960C3A911C0D55400386B /* Pods-Keyboard.release.xcconfig */,
+				290AB65F7AA6F58244C0D36F /* Pods-ROKOmoji.debug.xcconfig */,
+				3BAA6197D7F84644FC06903B /* Pods-ROKOmoji.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9DD65B1D05A9AE0079CB1D /* ROKOmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9DD66E1D05A9AE0079CB1D /* Build configuration list for PBXNativeTarget "ROKOmoji" */;
+			buildPhases = (
+				DF77D3F2E6FD489F3B0A7E9C /* [CP] Check Pods Manifest.lock */,
+				8F9DD6581D05A9AE0079CB1D /* Sources */,
+				8F9DD6591D05A9AE0079CB1D /* Frameworks */,
+				8F9DD65A1D05A9AE0079CB1D /* Resources */,
+				8F9DD6801D05AB250079CB1D /* Embed App Extensions */,
+				3306007902A6709837334D2A /* [CP] Embed Pods Frameworks */,
+				1A536EBC412C718B98A3A0FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9DD67B1D05AB250079CB1D /* PBXTargetDependency */,
+			);
+			name = ROKOmoji;
+			productName = ROKOKeyboard;
+			productReference = 8F9DD65C1D05A9AE0079CB1D /* ROKOmoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F9DD6741D05AB250079CB1D /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9DD67D1D05AB250079CB1D /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				644819CEAD6CF8D871CA6F4C /* [CP] Check Pods Manifest.lock */,
+				362895662CF6C125B61FFBFF /* [CP] Check Pods Manifest.lock */,
+				AAADC45AF73D08351AB04702 /* [CP] Check Pods Manifest.lock */,
+				8F9DD6711D05AB250079CB1D /* Sources */,
+				8F9DD6721D05AB250079CB1D /* Frameworks */,
+				8F9DD6731D05AB250079CB1D /* Resources */,
+				E647B88CF78F93533E96A095 /* [CP] Copy Pods Resources */,
+				501172488FBB1BC4A42BC2AC /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 8F9DD6751D05AB250079CB1D /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F9DD6541D05A9AE0079CB1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ROKOLABS;
+				TargetAttributes = {
+					8F9DD65B1D05A9AE0079CB1D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UA6LKF8Y8H;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8F9DD6741D05AB250079CB1D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UA6LKF8Y8H;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8F9DD6571D05A9AE0079CB1D /* Build configuration list for PBXProject "ROKOKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F9DD6531D05A9AE0079CB1D;
+			productRefGroup = 8F9DD65D1D05A9AE0079CB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9DD65B1D05A9AE0079CB1D /* ROKOmoji */,
+				8F9DD6741D05AB250079CB1D /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9DD65A1D05A9AE0079CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF6D4321DCB7E09000270A8 /* Pack_1188767.image_698287.Stickers in Resources */,
+				8FF6D4341DCB7E09000270A8 /* Pack_1188767.image_698348.Stickers in Resources */,
+				8F89B74A1DAE564A00025441 /* SF-UI-Text-Regular.otf in Resources */,
+				8FF6D40E1DCB7E09000270A8 /* Pack_1188767.icon_1149302.Stickers in Resources */,
+				8FF6D4151DCB7E09000270A8 /* Pack_1188767.icon_166176379.Stickers in Resources */,
+				8FF6D41E1DCB7E09000270A8 /* Pack_1188767.icon_698287.Stickers in Resources */,
+				8F2258381DB79396008854AC /* StickerPackIcon.xib in Resources */,
+				8FF6D4311DCB7E09000270A8 /* Pack_1188767.image_166927092.Stickers in Resources */,
+				8FF6D42E1DCB7E09000270A8 /* Pack_1188767.image_166927076.Stickers in Resources */,
+				8FF6D4381DCB7E09000270A8 /* StickersDataFile.Stickers in Resources */,
+				8FF6D4301DCB7E09000270A8 /* Pack_1188767.image_166927088.Stickers in Resources */,
+				8FF6D4211DCB7E09000270A8 /* Pack_1188767.icon_698366.Stickers in Resources */,
+				8FF6D41B1DCB7E09000270A8 /* Pack_1188767.icon_166927085.Stickers in Resources */,
+				8FF6D4271DCB7E09000270A8 /* Pack_1188767.image_166176373.Stickers in Resources */,
+				8FF6D4191DCB7E09000270A8 /* Pack_1188767.icon_166176391.Stickers in Resources */,
+				8FF6D41D1DCB7E09000270A8 /* Pack_1188767.icon_166927092.Stickers in Resources */,
+				8F9DD66A1D05A9AE0079CB1D /* LaunchScreen.storyboard in Resources */,
+				8FF6D4121DCB7E09000270A8 /* Pack_1188767.icon_166176370.Stickers in Resources */,
+				8FF6D41A1DCB7E09000270A8 /* Pack_1188767.icon_166927076.Stickers in Resources */,
+				8FF6D42C1DCB7E09000270A8 /* Pack_1188767.image_166176388.Stickers in Resources */,
+				8FF6D4221DCB7E09000270A8 /* Pack_1188767.image_1149302.Stickers in Resources */,
+				8FF6D42D1DCB7E09000270A8 /* Pack_1188767.image_166176391.Stickers in Resources */,
+				8FF6D4371DCB7E09000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers in Resources */,
+				8FF6D42A1DCB7E09000270A8 /* Pack_1188767.image_166176382.Stickers in Resources */,
+				8FF6D40F1DCB7E09000270A8 /* Pack_1188767.icon_1149311.Stickers in Resources */,
+				8FF6D4241DCB7E09000270A8 /* Pack_1188767.image_1149392.Stickers in Resources */,
+				8FF6D4181DCB7E09000270A8 /* Pack_1188767.icon_166176388.Stickers in Resources */,
+				8FF6D42B1DCB7E09000270A8 /* Pack_1188767.image_166176385.Stickers in Resources */,
+				8FF6D4351DCB7E09000270A8 /* Pack_1188767.image_698366.Stickers in Resources */,
+				8FF6D4261DCB7E09000270A8 /* Pack_1188767.image_166176370.Stickers in Resources */,
+				8FF6D4331DCB7E09000270A8 /* Pack_1188767.image_698339.Stickers in Resources */,
+				8FF6D42F1DCB7E09000270A8 /* Pack_1188767.image_166927085.Stickers in Resources */,
+				8FF6D4131DCB7E09000270A8 /* Pack_1188767.icon_166176373.Stickers in Resources */,
+				8F9DD6671D05A9AE0079CB1D /* Assets.xcassets in Resources */,
+				8FF6D4361DCB7E09000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers in Resources */,
+				8F89B7491DAE564A00025441 /* SF-UI-Text-Bold.otf in Resources */,
+				8FF6D4291DCB7E09000270A8 /* Pack_1188767.image_166176379.Stickers in Resources */,
+				8FF6D4281DCB7E09000270A8 /* Pack_1188767.image_166176376.Stickers in Resources */,
+				8FF6D4201DCB7E09000270A8 /* Pack_1188767.icon_698348.Stickers in Resources */,
+				8F2258361DB79396008854AC /* StickerIcon.xib in Resources */,
+				8FF6D41F1DCB7E09000270A8 /* Pack_1188767.icon_698339.Stickers in Resources */,
+				8FF6D4231DCB7E09000270A8 /* Pack_1188767.image_1149311.Stickers in Resources */,
+				8F35DC5E1DB4F1A400412758 /* GothaProReg.otf in Resources */,
+				8FF6D4161DCB7E09000270A8 /* Pack_1188767.icon_166176382.Stickers in Resources */,
+				8FF6D4171DCB7E09000270A8 /* Pack_1188767.icon_166176385.Stickers in Resources */,
+				8FF6D4251DCB7E09000270A8 /* Pack_1188767.image_166176367.Stickers in Resources */,
+				8F9DD6651D05A9AE0079CB1D /* Main.storyboard in Resources */,
+				8FF6D4101DCB7E09000270A8 /* Pack_1188767.icon_1149392.Stickers in Resources */,
+				8FF6D4111DCB7E09000270A8 /* Pack_1188767.icon_166176367.Stickers in Resources */,
+				8FF6D41C1DCB7E09000270A8 /* Pack_1188767.icon_166927088.Stickers in Resources */,
+				8FF6D4141DCB7E09000270A8 /* Pack_1188767.icon_166176376.Stickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9DD6731D05AB250079CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF6D4481DCB7E14000270A8 /* Pack_1188767.icon_166927092.Stickers in Resources */,
+				8F2258431DB7B068008854AC /* StickerIcon.xib in Resources */,
+				8FF6D4591DCB7E14000270A8 /* Pack_1188767.image_166927076.Stickers in Resources */,
+				8FF6D44D1DCB7E14000270A8 /* Pack_1188767.image_1149302.Stickers in Resources */,
+				8F89B7501DAE7DC600025441 /* SF-UI-Text-Bold.otf in Resources */,
+				8FF6D4401DCB7E14000270A8 /* Pack_1188767.icon_166176379.Stickers in Resources */,
+				8FF6D4511DCB7E14000270A8 /* Pack_1188767.image_166176370.Stickers in Resources */,
+				8FF6D4551DCB7E14000270A8 /* Pack_1188767.image_166176382.Stickers in Resources */,
+				8FF6D4531DCB7E14000270A8 /* Pack_1188767.image_166176376.Stickers in Resources */,
+				8FF6D43B1DCB7E14000270A8 /* Pack_1188767.icon_1149392.Stickers in Resources */,
+				8FF6D45F1DCB7E14000270A8 /* Pack_1188767.image_698348.Stickers in Resources */,
+				8FF6D44A1DCB7E14000270A8 /* Pack_1188767.icon_698339.Stickers in Resources */,
+				8FF6D4561DCB7E14000270A8 /* Pack_1188767.image_166176385.Stickers in Resources */,
+				8FF6D4451DCB7E14000270A8 /* Pack_1188767.icon_166927076.Stickers in Resources */,
+				8FF6D45C1DCB7E14000270A8 /* Pack_1188767.image_166927092.Stickers in Resources */,
+				8FF6D4621DCB7E14000270A8 /* Pack_1188767.selectedPackIcon_2055947432137303685.Stickers in Resources */,
+				8F6EBDA51D08480B0022E6A4 /* Media.xcassets in Resources */,
+				8FF6D4431DCB7E14000270A8 /* Pack_1188767.icon_166176388.Stickers in Resources */,
+				8FF6D44C1DCB7E14000270A8 /* Pack_1188767.icon_698366.Stickers in Resources */,
+				8FF6D44B1DCB7E14000270A8 /* Pack_1188767.icon_698348.Stickers in Resources */,
+				8F89B7511DAE7DC600025441 /* SF-UI-Text-Regular.otf in Resources */,
+				8FF6D44E1DCB7E14000270A8 /* Pack_1188767.image_1149311.Stickers in Resources */,
+				8FF6D45B1DCB7E14000270A8 /* Pack_1188767.image_166927088.Stickers in Resources */,
+				8FF6D43C1DCB7E14000270A8 /* Pack_1188767.icon_166176367.Stickers in Resources */,
+				8FF6D4391DCB7E14000270A8 /* Pack_1188767.icon_1149302.Stickers in Resources */,
+				8FF6D4601DCB7E14000270A8 /* Pack_1188767.image_698366.Stickers in Resources */,
+				8FF6D43F1DCB7E14000270A8 /* Pack_1188767.icon_166176376.Stickers in Resources */,
+				8FF6D4571DCB7E14000270A8 /* Pack_1188767.image_166176388.Stickers in Resources */,
+				8FF6D4441DCB7E14000270A8 /* Pack_1188767.icon_166176391.Stickers in Resources */,
+				8FF6D4501DCB7E14000270A8 /* Pack_1188767.image_166176367.Stickers in Resources */,
+				8F6EBD9D1D0805B50022E6A4 /* KeyboardViewController.xib in Resources */,
+				8FF6D43E1DCB7E14000270A8 /* Pack_1188767.icon_166176373.Stickers in Resources */,
+				8FF6D45A1DCB7E14000270A8 /* Pack_1188767.image_166927085.Stickers in Resources */,
+				8FF6D45D1DCB7E14000270A8 /* Pack_1188767.image_698287.Stickers in Resources */,
+				8FF6D4411DCB7E14000270A8 /* Pack_1188767.icon_166176382.Stickers in Resources */,
+				8FF6D4521DCB7E14000270A8 /* Pack_1188767.image_166176373.Stickers in Resources */,
+				8FF6D43A1DCB7E14000270A8 /* Pack_1188767.icon_1149311.Stickers in Resources */,
+				8FF6D45E1DCB7E14000270A8 /* Pack_1188767.image_698339.Stickers in Resources */,
+				8FF6D4471DCB7E14000270A8 /* Pack_1188767.icon_166927088.Stickers in Resources */,
+				8FF6D4461DCB7E14000270A8 /* Pack_1188767.icon_166927085.Stickers in Resources */,
+				8FF6D44F1DCB7E14000270A8 /* Pack_1188767.image_1149392.Stickers in Resources */,
+				8FF6D4611DCB7E14000270A8 /* Pack_1188767.packIcon_3941859901249773958.Stickers in Resources */,
+				8F2258451DB7B06E008854AC /* StickerPackIcon.xib in Resources */,
+				8FF6D4581DCB7E14000270A8 /* Pack_1188767.image_166176391.Stickers in Resources */,
+				8FF6D43D1DCB7E14000270A8 /* Pack_1188767.icon_166176370.Stickers in Resources */,
+				8FF6D4541DCB7E14000270A8 /* Pack_1188767.image_166176379.Stickers in Resources */,
+				8FF6D4631DCB7E14000270A8 /* StickersDataFile.Stickers in Resources */,
+				8FF6D4491DCB7E14000270A8 /* Pack_1188767.icon_698287.Stickers in Resources */,
+				8FF6D4421DCB7E14000270A8 /* Pack_1188767.icon_166176385.Stickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A536EBC412C718B98A3A0FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROKOmoji/Pods-ROKOmoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3306007902A6709837334D2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROKOmoji/Pods-ROKOmoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362895662CF6C125B61FFBFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		501172488FBB1BC4A42BC2AC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		644819CEAD6CF8D871CA6F4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAADC45AF73D08351AB04702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF77D3F2E6FD489F3B0A7E9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E647B88CF78F93533E96A095 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F9DD6581D05A9AE0079CB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2258351DB79396008854AC /* StickerIcon.swift in Sources */,
+				270531511DC8B484002B93FD /* FileManager+Stickers.swift in Sources */,
+				8F4F8EF21DC376890007BCBF /* UIImage+Scale.swift in Sources */,
+				2705314E1DC8AE1E002B93FD /* StickerLoader.swift in Sources */,
+				8F42D73C1DD5C3400066AC30 /* PageContentViewController.swift in Sources */,
+				8FDBF8D11DBA5E2800DAFD9D /* StickersDataProvider.swift in Sources */,
+				2705314B1DC8A76C002B93FD /* StickerCache.swift in Sources */,
+				8F4F92AD1DC76B050007BCBF /* CopyboardManager.swift in Sources */,
+				8F22583B1DB7940C008854AC /* StickersPanel.swift in Sources */,
+				8F89B7371DACF41E00025441 /* HelpControllerFactory.swift in Sources */,
+				8F2258371DB79396008854AC /* StickerPackIcon.swift in Sources */,
+				8F89B7401DAD1D3200025441 /* Utilites.swift in Sources */,
+				270531561DC8D829002B93FD /* StickerDataSource.swift in Sources */,
+				8F4F92AC1DC769810007BCBF /* Constants.swift in Sources */,
+				8F42D73B1DD5C3400066AC30 /* HelpPageController.swift in Sources */,
+				8F9DD6601D05A9AE0079CB1D /* AppDelegate.swift in Sources */,
+				8F2258391DB79396008854AC /* StickerPacksPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9DD6711D05AB250079CB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE2076A1DBF580100CBDDAF /* StickersDataProvider.swift in Sources */,
+				8F4F92AE1DC76B7A0007BCBF /* Constants.swift in Sources */,
+				8F2258461DB7B070008854AC /* StickersPanel.swift in Sources */,
+				8FE207691DBF57F900CBDDAF /* Utilites.swift in Sources */,
+				8F2258471DB7B073008854AC /* StickerPacksPanel.swift in Sources */,
+				2705314C1DC8A76C002B93FD /* StickerCache.swift in Sources */,
+				8F9DD6781D05AB250079CB1D /* KeyboardViewController.swift in Sources */,
+				8F2258441DB7B06B008854AC /* StickerPackIcon.swift in Sources */,
+				270531521DC8B484002B93FD /* FileManager+Stickers.swift in Sources */,
+				8F2258421DB7B063008854AC /* StickerIcon.swift in Sources */,
+				8FE20C371DC090AB00CBDDAF /* UIImage+Scale.swift in Sources */,
+				2705314F1DC8AE1E002B93FD /* StickerLoader.swift in Sources */,
+				8F6EBDA81D085C950022E6A4 /* CopyboardManager.swift in Sources */,
+				270531571DC8D829002B93FD /* StickerDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F9DD67B1D05AB250079CB1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9DD6741D05AB250079CB1D /* Keyboard */;
+			targetProxy = 8F9DD67A1D05AB250079CB1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F9DD6631D05A9AE0079CB1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9DD6641D05A9AE0079CB1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F9DD6681D05A9AE0079CB1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9DD6691D05A9AE0079CB1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F9DD66C1D05A9AE0079CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F9DD66D1D05A9AE0079CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F9DD66F1D05A9AE0079CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290AB65F7AA6F58244C0D36F /* Pods-ROKOmoji.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ROKOmoji.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UA6LKF8Y8H;
+				INFOPLIST_FILE = ROKOKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokolabs.ROKOMojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ROKOKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9DD6701D05A9AE0079CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAA6197D7F84644FC06903B /* Pods-ROKOmoji.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ROKOmoji.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CarryQuote, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UA6LKF8Y8H;
+				INFOPLIST_FILE = ROKOKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokolabs.ROKOMojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ROKOKeyboard-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F9DD67E1D05AB250079CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F969847956C514F17B833E4E /* Pods-Keyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UA6LKF8Y8H;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokolabs.ROKOMojiKeyboard.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Keyboard/Keyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9DD67F1D05AB250079CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138960C3A911C0D55400386B /* Pods-Keyboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CarryQuote, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = UA6LKF8Y8H;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokolabs.ROKOMojiKeyboard.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Keyboard/Keyboard-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9DD6571D05A9AE0079CB1D /* Build configuration list for PBXProject "ROKOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9DD66C1D05A9AE0079CB1D /* Debug */,
+				8F9DD66D1D05A9AE0079CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9DD66E1D05A9AE0079CB1D /* Build configuration list for PBXNativeTarget "ROKOmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9DD66F1D05A9AE0079CB1D /* Debug */,
+				8F9DD6701D05A9AE0079CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9DD67D1D05AB250079CB1D /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9DD67E1D05AB250079CB1D /* Debug */,
+				8F9DD67F1D05AB250079CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F9DD6541D05A9AE0079CB1D /* Project object */;
+}

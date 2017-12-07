@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0910"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8F9DD65B1D05A9AE0079CB1D"
+               BuildableName = "ROKOmoji.app"
+               BlueprintName = "ROKOmoji"
+               ReferencedContainer = "container:ROKOKeyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8F9DD65B1D05A9AE0079CB1D"
+            BuildableName = "ROKOmoji.app"
+            BlueprintName = "ROKOmoji"
+            ReferencedContainer = "container:ROKOKeyboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8F9DD65B1D05A9AE0079CB1D"
+            BuildableName = "ROKOmoji.app"
+            BlueprintName = "ROKOmoji"
+            ReferencedContainer = "container:ROKOKeyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8F9DD65B1D05A9AE0079CB1D"
+            BuildableName = "ROKOmoji.app"
+            BlueprintName = "ROKOmoji"
+            ReferencedContainer = "container:ROKOKeyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "VERSION=$(/usr/libexec/PlistBuddy -c &quot;Print CFBundleShortVersionString&quot; &quot;${PROJECT_DIR}/${INFOPLIST_FILE}&quot;)&#10;IPA=&quot;${XCS_BOT_ID}-${XCS_BOT_NAME}/${XCS_INTEGRATION_NUMBER}/${PRODUCT_NAME}.ipa&quot;&#10;DEST=&quot;Keyboard&quot;&#10;ENV=&quot;DEV&quot;&#10;PROJECT_NAME=&quot;Keyboard&quot;&#10;JIRA_PROJECT=&quot;RMK&quot;&#10;JIRA_VERSION_PREFIX=&quot;none&quot;&#10;&#10;exec /scripts/publish.sh $JIRA_PROJECT $JIRA_VERSION_PREFIX $VERSION $IPA $DEST $ENV $PROJECT_NAME &amp;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "8F9DD65B1D05A9AE0079CB1D"
+                     BuildableName = "ROKOmoji.app"
+                     BlueprintName = "ROKOmoji"
+                     ReferencedContainer = "container:ROKOKeyboard.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>
